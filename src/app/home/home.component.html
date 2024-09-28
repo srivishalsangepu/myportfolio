@@ -1,0 +1,464 @@
+<main>
+  <div class="position-relative">
+    <!-- Hero for FREE version -->
+    <section class="section section-lg section-hero section-shaped">
+      <!-- Background circles -->
+      <div class="shape shape-style-1 shape-primary">
+        <span class="span-150"></span>
+        <span class="span-50"></span>
+        <span class="span-50"></span>
+        <span class="span-75"></span>
+        <span class="span-100"></span>
+        <span class="span-75"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+      </div>
+      <div class="container shape-container d-flex align-items-center py-lg">
+        <div class="col px-0">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h4 class="header-title">Sangepu Srivishal</h4>
+              <p class="lead text-white">I'm a Freelancer</p>
+              <div class="btn-wrapper mt-5">
+                <a
+                  href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-index-header"
+                  class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0"
+                >
+                  <span class="btn-inner--icon"
+                    ><i class="ni ni-cloud-download-95"></i
+                  ></span>
+                  <span class="btn-inner--text">Download CV</span>
+                </a>
+                <a
+                  href="https://github.com/srivishalsangepu"
+                  class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0"
+                  target="_blank"
+                >
+                  <span class="btn-inner--icon"
+                    ><i class="fa fa-github"></i
+                  ></span>
+                  <span class="btn-inner--text">
+                    <span class="text-warning">Star us</span> on Github</span
+                  >
+                </a>
+              </div>
+              <div class="mt-5">
+                <small class="text-white font-weight-bold mb-0 mr-2"
+                  >*proudly coded by</small
+                >
+                <img
+                  src="./assets/img/mylogos/mylogo-white.png"
+                  style="height: 150px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SVG separator -->
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg
+          x="0"
+          y="0"
+          viewBox="0 0 2560 100"
+          preserveAspectRatio="none"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </section>
+  </div>
+  <!-- About me-->
+  <section class="section section-components pb-0" id="section-components">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <h2 class="mb-5">
+            <span>Personal Information</span>
+          </h2>
+
+          <h3 class="h4 text-success font-weight-bold mb-4">About me</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-lg-8 mb-3 mt-5">
+          <small class="font-weight-bold justify-content-center"
+            >As a full-stack developer with over 7 years of experience, I am
+            well-versed in a range of technologies, including Angular, .NET Web
+            API, and Java Spring Boot. My expertise in these areas has allowed
+            me to develop complex and highly scalable applications that meet the
+            needs of clients across a variety of industries. In my previous
+            roles, I have been responsible for designing, developing, and
+            deploying applications that deliver exceptional user experiences
+            while also meeting performance and scalability requirements. My
+            ability to work with both front-end and back-end technologies has
+            been crucial to my success as a full-stack developer. Specifically,
+            I am highly skilled in Angular, which I have used extensively to
+            develop robust and interactive front-end applications. I am also
+            proficient in .NET Web API, which has enabled me to build
+            high-performance APIs that facilitate seamless communication between
+            front-end and back-end systems. Additionally, I have experience with
+            Java Spring Boot, which has allowed me to develop highly scalable
+            and reliable applications that can handle large volumes of traffic.
+            Overall, my expertise in these technologies, combined with my
+            ability to work collaboratively with other developers and
+            stakeholders, make me an ideal candidate for any full-stack
+            development position. I am passionate about staying up-to-date with
+            the latest industry trends and best practices, and I am always eager
+            to take on new challenges and learn new skills.</small
+          >
+        </div>
+        <div class="col-md-4 col-lg-4 mb-3 mt-5">
+          <img
+            src="https://avatars.githubusercontent.com/u/29128849?v=4"
+            class="img-circle mypicStyle"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h3 class="h4 text-success font-weight-bold mb-4">Projects</h3>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="mb-3">
+          <small class="text-uppercase font-weight-bold">Backoffice 2.0</small>
+        </div>
+        <div class="custom-tab-content flex-column flex-md-row">
+          <ul
+            ngbNav
+            #nav="ngbNav"
+            [(activeId)]="active1"
+            class="nav nav-pills justify-content-center"
+            type="pills"
+          >
+            <li class="nav-item" [ngbNavItem]="1">
+              <a class="nav-link" ngbNavLink
+                ><i class="ni ni-cloud-upload-96 mr-2"></i> Project Info</a
+              >
+              <ng-template ngbNavContent>
+                <div class="tab-content">
+                  <p class="description">
+                    Project Name: Backoffice 2.0<br />
+                    Location: Bangalore,<br />
+                    Role: UI Developer,<br />
+                    Duration: Dec-2022 - till date,<br />
+                    Technologies/Tools: Angular 13, Java Sprinboot.
+                  </p>
+                </div>
+              </ng-template>
+            </li>
+            <li class="nav-item" [ngbNavItem]="2">
+              <a class="nav-link" ngbNavLink>
+                <i class="ni ni-bell-55 mr-2"></i> Description
+              </a>
+              <ng-template ngbNavContent>
+                <div class="tab-content">
+                  <p class="description">
+                    Backoffice 2.0 is an in-house application which has multiple
+                    models like campaign manager, coin economy and wallet3.0.
+                    Primarily used by the marketers to configure campaigns
+                    across multiple regions. And this tool also generates
+                    reports for the campaigns.
+                  </p>
+                </div>
+              </ng-template>
+            </li>
+            <li class="nav-item" [ngbNavItem]="3">
+              <a class="nav-link" ngbNavLink>
+                <i class="ni ni-calendar-grid-58 mr-2"></i> Roles
+              </a>
+              <ng-template ngbNavContent>
+                <div class="tab-content">
+                  <p class="description">
+                    Responsible for Developing responsive web applications based
+                    on the Wireframes for IO product.
+                    <br />Writing the reusable code using the services and rxjs.
+                    <br />Resolving the issues in the web applications.
+                    <br />Worked mostly on the SCSS issues, scaling the web
+                    application using Chrome browser tools. <br />Creating
+                    reusable components and developing SPA application.
+                    <br />Writing services for code reusability.
+                    <br />Interacting with the backend developers for the API’s.
+                    <br />Handling the Routes and Form Validation issues and
+                    developing dynamic reactive forms fields. <br />Interacting
+                    with Tester for bugs Identification and fixing the issues.
+                    <br />Updating the tester with the latest code snippet and
+                    sheet of updates. <br />Taking inputs from the UI/UX
+                    designer for developing the screens.
+                  </p>
+                </div>
+              </ng-template>
+            </li>
+          </ul>
+        </div>
+
+        <div [ngbNavOutlet]="nav" class="custom-tab-content"></div>
+      </div>
+      <div class="col-lg-6">
+        <!-- Tabs with icons -->
+        <div class="mb-3">
+          <small class="text-uppercase font-weight-bold">IO System</small>
+        </div>
+        <div class="custom-tab-content flex-column flex-md-row">
+          <ul
+            ngbNav
+            #nav2="ngbNav"
+            [(activeId)]="active2"
+            class="nav nav-pills justify-content-center"
+            type="pills"
+          >
+            <li class="nav-item" [ngbNavItem]="1">
+              <a class="nav-link" ngbNavLink
+                ><i class="ni ni-cloud-upload-96 mr-2"></i> Project Info</a
+              >
+              <ng-template ngbNavContent>
+                <div class="tab-content">
+                  <p class="description">
+                    Project Name: IO System
+                    <br />Location: Bangalore, <br />Role: UI Developer,
+                    <br />Duration: June-2019 – Feb-2020,
+                    <br />Technologies/Tools: Angular, Angular Material, SCSS.
+                  </p>
+                </div>
+              </ng-template>
+            </li>
+            <li class="nav-item" [ngbNavItem]="2">
+              <a class="nav-link" ngbNavLink>
+                <i class="ni ni-bell-55 mr-2"></i> Description
+              </a>
+              <ng-template ngbNavContent>
+                <div class="tab-content">
+                  <p class="description">
+                    Backoffice 2.0 is an in-house application which has multiple
+                    models like campaign manager, coin economy and wallet3.0.
+                    Primarily used by the marketers to configure campaigns
+                    across multiple regions. And this tool also generates
+                    reports for the campaigns.
+                  </p>
+                </div>
+              </ng-template>
+            </li>
+            <li class="nav-item" [ngbNavItem]="3">
+              <a class="nav-link" ngbNavLink>
+                <i class="ni ni-calendar-grid-58 mr-2"></i> Roles
+              </a>
+              <ng-template ngbNavContent>
+                <div class="tab-content">
+                  <p class="description">
+                    Responsible for Developing responsive web applications based
+                    on the Wireframes for IO product.
+                    <br />Writing the reusable code using the services and rxjs.
+                    <br />Resolving the issues in the web applications.
+                    <br />Worked mostly on the SCSS issues, scaling the web
+                    application using Chrome browser tools. <br />Creating
+                    reusable components and developing SPA application.
+                    <br />Writing services for code reusability.
+                    <br />Interacting with the backend developers for the API’s.
+                    <br />Handling the Routes and Form Validation issues and
+                    developing dynamic reactive forms fields. <br />Interacting
+                    with Tester for bugs Identification and fixing the issues.
+                    <br />Updating the tester with the latest code snippet and
+                    sheet of updates. <br />Taking inputs from the UI/UX
+                    designer for developing the screens.
+                  </p>
+                </div>
+              </ng-template>
+            </li>
+          </ul>
+        </div>
+
+        <div [ngbNavOutlet]="nav2" class="custom-tab-content"></div>
+      </div>
+    </div>
+
+    <div class="row row-grid justify-content-between align-items-center mt-lg">
+      <div class="col-lg-6">
+        <h3 class="h4 text-success font-weight-bold mb-4">Key Skils</h3>
+        <div class="progress-wrapper">
+          <div class="progress-info">
+            <div class="progress-label">
+              <span>Angular</span>
+            </div>
+            <div class="progress-percentage">
+              <span>90%</span>
+            </div>
+          </div>
+          <ngb-progressbar type="default" [value]="90"></ngb-progressbar>
+        </div>
+        <div class="progress-wrapper">
+          <div class="progress-info">
+            <div class="progress-label">
+              <span>Java Springboot</span>
+            </div>
+            <div class="progress-percentage">
+              <span>60%</span>
+            </div>
+          </div>
+          <ngb-progressbar type="primary" [value]="60"></ngb-progressbar>
+        </div>
+        <div class="progress-wrapper">
+          <div class="progress-info">
+            <div class="progress-label">
+              <span>Node Js</span>
+            </div>
+            <div class="progress-percentage">
+              <span>70%</span>
+            </div>
+          </div>
+          <ngb-progressbar type="default" [value]="90"></ngb-progressbar>
+        </div>
+        <div class="progress-wrapper">
+          <div class="progress-info">
+            <div class="progress-label">
+              <span>MongoDB</span>
+            </div>
+            <div class="progress-percentage">
+              <span>50%</span>
+            </div>
+          </div>
+          <ngb-progressbar type="primary" [value]="60"></ngb-progressbar>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <h3 class="h4 text-success font-weight-bold mb-5">Self Ratings</h3>
+        <nav aria-label="Page navigation example" class="mb-5">
+          <ngb-pagination
+            [collectionSize]="100"
+            [(page)]="page[8]"
+            [directionLinks]="false"
+          ></ngb-pagination>
+        </nav>
+        <nav aria-label="Page navigation example" class="mb-5">
+          <ngb-pagination
+            [collectionSize]="100"
+            [(page)]="page[5]"
+            [directionLinks]="false"
+          >
+          </ngb-pagination>
+        </nav>
+        <nav aria-label="Page navigation example" class="mb-5">
+          <ngb-pagination
+            [collectionSize]="100"
+            [(page)]="page[6]"
+            [directionLinks]="false"
+          ></ngb-pagination>
+        </nav>
+        <nav aria-label="Page navigation example">
+          <ngb-pagination
+            [collectionSize]="100"
+            [(page)]="page[4]"
+            [directionLinks]="false"
+          >
+          </ngb-pagination>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <h2 class="mt-lg mb-5">
+      <span>Core Competences</span>
+    </h2>
+
+    <h3 class="h4 text-success text-center font-weight-bold mb-5">
+      {{ this.getCoreCompetences()[0]?.name }}
+    </h3>
+    <div class="row">
+      <div
+        class="col-sm-3 col-6 mt-5 mt-sm-0 text-center"
+        *ngFor="let skill of getPrimarySkills"
+      >
+        <small class="d-block text-uppercase font-weight-bold mb-4">{{
+          skill?.displayName
+        }}</small>
+        <img
+          [src]="skill?.img"
+          alt="Raised circle image"
+          class="img-fluid rounded shadow skills-style img-centered"
+        />
+      </div>
+    </div>
+
+    <h3 class="h4 text-success text-center font-weight-bold mb-5 mt-5">
+      {{ this.getCoreCompetences()[1]?.name }}
+    </h3>
+    <div class="row mt-5">
+      <div
+        class="col-sm-3 col-6 mt-5 mt-sm-0 text-center"
+        *ngFor="let skill of getdbSkills"
+      >
+        <small class="d-block text-uppercase font-weight-bold mb-4">{{
+          skill?.displayName
+        }}</small>
+        <img
+          [src]="skill?.img"
+          alt="Raised circle image"
+          class="img-fluid rounded shadow skills-style img-centered"
+        />
+      </div>
+    </div>
+    <h3 class="h4 text-success text-center font-weight-bold mb-5 mt-5">
+      {{ this.getCoreCompetences()[2]?.name }}
+    </h3>
+    <div class="row mt-5">
+      <div
+        class="col-sm-3 col-6 mt-5 mt-sm-0 text-center"
+        *ngFor="let skill of getOtherSkills"
+      >
+        <small class="d-block text-uppercase font-weight-bold mb-4">{{
+          skill?.displayName
+        }}</small>
+        <img
+          [src]="skill?.img"
+          alt="Raised circle image"
+          class="img-fluid rounded shadow skills-style img-centered"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <h3 class="h4 text-success font-weight-bold mt-md">Professional Experience</h3>
+    <div class="row py-3 align-items-center">
+      <div class="col-sm-4">
+        <small class="text-uppercase text-muted font-weight-bold"
+          >Ivy Comptech Development services</small
+        >
+      </div>
+      <div class="col-sm-8">
+        <p>
+          Currently working as a Systems Analyst from April 2022 - Till Date.
+        </p>
+      </div>
+    </div>
+    <div class="row py-3 align-items-center">
+      <div class="col-sm-4">
+        <small class="text-uppercase text-muted font-weight-bold"
+          >Accenture Solutions Pvt Ltd.</small
+        >
+      </div>
+      <div class="col-sm-8">
+        <p>
+          Worked with Accenture from Feb 2020 to April 2022 as Service Management Senior Analyst.
+        </p>
+      </div>
+    </div>
+    <div class="row py-3 align-items-center">
+      <div class="col-sm-4">
+        <small class="text-uppercase text-muted font-weight-bold"
+          >Ojas Innovative Technologies Pvt. Ltd.</small
+        >
+      </div>
+      <div class="col-sm-8">
+        <p>
+          Worked with Ojas from Sep 2016 to Feb 2020 as a Software Engineer.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
